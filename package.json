@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 start ecosystem.config.js",
+    "start": "pm2 start ./bin/www",
     "stop": "pm2 stop ecosystem.config.js",
     "dev": "nodemon ./bin/www"
   },
